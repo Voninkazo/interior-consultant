@@ -1,14 +1,15 @@
 @import "./variables/variables";
 .article__heading {
-    font-family: 'Lora-Regular';
+    font-family: 'Lora';
     font-size: 36px;
+    font-weight: normal;
     line-height: 46px;
     color: #FFFFFF;
     margin: 0;
 }
 
 .article__texts {
-    font-family: 'Montserrat-Medium';
+    font-family: 'montserrat-medium';
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
@@ -27,4 +28,19 @@
     font-weight: 600;
     line-height: 17px;
     color: #FFFFFF;
+}
+
+@media (min-width: 1114px) {
+    .article__heading {
+        font-size: 48px;
+        line-height: 61px;
+    }
+    .article__texts {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .button__readmore--link {
+        font-size: 18px;
+        line-height: 22px;
+    }
 }
