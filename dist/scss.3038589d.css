@@ -94,7 +94,8 @@ header > div {
   top: 2%;
   left: 0;
   bottom: 0;
-  height: 776px;
+  padding-block-start: 258px;
+  padding-block-end: calc(334px - 32px);
   padding-left: 142px;
   padding-right: 142px;
   background-color: #181719;
@@ -119,10 +120,8 @@ input[type="checkbox"]:checked ~ nav {
   z-index: 2;
   display: block;
   content: '';
-  left: 56px;
-  top: -122px;
   transition: transform 0.3s;
-  transform: translateX(-15%); }
+  transform: translateX(-1%) translateY(-16%); }
 
 
 /*# sourceMappingURL=/scss.3038589d.css.map */
