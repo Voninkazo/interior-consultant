@@ -119,5 +119,6 @@ input[type="checkbox"]:checked~nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: baseline;
     }
 }

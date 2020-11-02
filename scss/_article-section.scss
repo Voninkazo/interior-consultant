@@ -1,0 +1,30 @@
+@import "./variables/variables";
+.article__heading {
+    font-family: 'Lora-Regular';
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.article__texts {
+    font-family: 'Montserrat-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-block-end: 25px;
+    padding-block-start: 25px;
+}
+
+.button__readmore {
+    margin: 0;
+    padding-block-end: 25px;
+}
+
+.button__readmore--link {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #FFFFFF;
+}
