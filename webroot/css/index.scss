@@ -1,5 +1,35 @@
-@import "./variables/variables";
-header>div {}
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: #cccccc;
+    position: relative;
+}
+
+.container {
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 19px;
+    padding-bottom: 24px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+@media (min-width: 1114px) {
+    .container {
+        max-width: 1114px;
+        padding: 0;
+        margin: auto;
+    }
+}
 
 header>div {
     display: flex;
@@ -31,25 +61,26 @@ header>div {
     top: 2%;
     left: 0;
     bottom: 0;
-    // width: 320px;
+    width: 375px;
     height: 776px;
     padding-left: 142px;
     padding-right: 142px;
     background-color: #181719;
     z-index: 3;
-    box-shadow: 0 0 50px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     transform: translateX(-110%);
     transition: transform 0.3s;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .navigation__container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    li {
-        margin-top: 32px;
-    }
+}
+
+.navigation__container li {
+    margin-top: 32px;
 }
 
 .icon__menu {
@@ -61,7 +92,7 @@ input[type="checkbox"]:checked~nav {
     z-index: 2;
     display: block;
     content: '';
-    left: 56px;
+    left: 100px;
     top: -122px;
     transition: transform 0.3s;
     transform: translateX(-15%);

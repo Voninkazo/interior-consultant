@@ -1,14 +1,29 @@
 @import "./variables/variables";
 body {
+    font-family: 'Montserrat-Regular';
     margin: 0;
     font-size: 16px;
+    background-color: #cccccc;
+    position: relative;
+}
+
+.container {
+    @include style-container();
 }
 
 ul {
-    @include reset-list
+    @include reset-list();
 }
 
 a {
     text-decoration: none;
     display: block;
+}
+
+@media (min-width:1114px) {
+    .container {
+        max-width: 1114px;
+        // padding: 0;
+        margin: auto;
+    }
 }

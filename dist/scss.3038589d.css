@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("/montserrat-bold.2b896321.woff2") format("woff2"), url("/montserrat-bold.b5ae94a0.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("/montserrat-400.15d4d6af.woff2") format("woff2"), url("/montserrat-400.612c9722.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url("/montserrat-md.8c583f21.woff2") format("woff2"), url("/montserrat-md.5a0d9919.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Lora-Regular';
+  src: url("/lora-400.5a325b81.woff2") format("woff2"), url("/lora-400.b2210c55.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Lora-Bold';
+  src: url("/lora-bold.1a124da8.woff2") format("woff2"), url("/lora-bold.264620eb.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Crimson-extra-light';
+  src: url("/crimson-pro-extraLight.f075c65c.woff2") format("woff2"), url("/crimson-pro-extraLight.4b03c086.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap; }
+
+body {
+  font-family: 'Montserrat-Regular';
+  margin: 0;
+  font-size: 16px;
+  background-color: #cccccc;
+  position: relative; }
+
+.container {
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 19px;
+  padding-bottom: 24px; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  display: block; }
+
+@media (min-width: 1114px) {
+  .container {
+    max-width: 1114px;
+    margin: auto; } }
+
+header > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+[type="checkbox"] {
+  display: none; }
+
+.icon__close {
+  cursor: pointer;
+  position: fixed;
+  right: 21px;
+  top: 21px;
+  background: #ededed;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px; }
+
+.navigation {
+  position: absolute;
+  top: 2%;
+  left: 0;
+  bottom: 0;
+  height: 776px;
+  padding-left: 142px;
+  padding-right: 142px;
+  background-color: #181719;
+  z-index: 3;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  transform: translateX(-110%);
+  transition: transform 0.3s;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
+
+.navigation__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .navigation__container li {
+    margin-top: 32px; }
+
+.icon__menu {
+  cursor: pointer; }
+
+input[type="checkbox"]:checked ~ nav {
+  position: relative;
+  z-index: 2;
+  display: block;
+  content: '';
+  left: 56px;
+  top: -122px;
+  transition: transform 0.3s;
+  transform: translateX(-15%); }
+
+
+/*# sourceMappingURL=/scss.3038589d.css.map */
