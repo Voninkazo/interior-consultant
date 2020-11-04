@@ -3,5 +3,7 @@
     .section__wrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        column-gap: calc(87px + 44px);
+        padding-top: 153px;
     }
 }

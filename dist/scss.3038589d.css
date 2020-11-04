@@ -65,6 +65,7 @@ a {
 @media (min-width: 1114px) {
   .container {
     max-width: 1114px;
+    padding: 0;
     margin: auto; } }
 
 body h1 {
@@ -259,6 +260,13 @@ input[type="checkbox"]:checked ~ nav {
   color: #FFFFFF;
   padding-block-end: 30px;
   padding-block-start: 30px; }
+
+@media (min-width: 1114px) {
+  .section__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: calc(87px + 44px);
+    padding-top: 153px; } }
 
 
 /*# sourceMappingURL=/scss.3038589d.css.map */
