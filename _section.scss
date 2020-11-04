@@ -1,0 +1,7 @@
+@import "./scss/variables/variables";
+@media (min-width: 1114px) {
+    .section__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

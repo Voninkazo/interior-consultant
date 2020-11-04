@@ -178,10 +178,10 @@ input[type="checkbox"]:checked ~ nav {
   margin: 0; }
 
 .article__texts {
-  font-family: 'montserrat-medium';
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
+  font-weight: 300;
   margin: 0;
   padding-block-end: 25px;
   padding-block-start: 25px; }
@@ -206,6 +206,59 @@ input[type="checkbox"]:checked ~ nav {
   .button__readmore--link {
     font-size: 18px;
     line-height: 22px; } }
+
+.main__image {
+  width: 100%;
+  position: relative; }
+
+.information__container {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  background: #181719;
+  padding-inline-start: 26px;
+  padding-block-start: 23px;
+  padding-inline-end: 95px;
+  width: 300px;
+  height: 138px; }
+
+.interior__profile_image {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; }
+
+.interior__presentation_container {
+  display: flex;
+  flex-direction: row; }
+  .interior__presentation_container li:nth-of-type(2) {
+    padding-inline-start: 8px; }
+    .interior__presentation_container li:nth-of-type(2) p {
+      margin: 0; }
+
+.interior__information_container p {
+  margin: 0; }
+
+.interior__information_name {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF; }
+
+.interior__information_career {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  /* Gray 3 */
+  color: #828282; }
+
+.presentation__date {
+  font-family: 'Lora-Bold';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  padding-block-end: 30px;
+  padding-block-start: 30px; }
 
 
 /*# sourceMappingURL=/scss.3038589d.css.map */
