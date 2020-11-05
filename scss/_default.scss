@@ -20,6 +20,10 @@ a {
     display: block;
 }
 
+main {
+    padding-bottom: 102px;
+}
+
 @media (min-width:1114px) {
     .container {
         max-width: 1114px;
