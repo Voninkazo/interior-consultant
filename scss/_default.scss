@@ -21,7 +21,8 @@ a {
 }
 
 main {
-    padding-bottom: 102px;
+    padding-bottom: 132px;
+    border-bottom: 1px solid #A9A9A9;
 }
 
 @media (min-width:1114px) {
@@ -29,5 +30,9 @@ main {
         max-width: 1114px;
         padding: 0;
         margin: auto;
+    }
+    main {
+        border-bottom: none;
+        padding-bottom: 208px;
     }
 }
