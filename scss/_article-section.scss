@@ -4,15 +4,15 @@
     font-size: 36px;
     font-weight: normal;
     line-height: 46px;
-    color: #FFFFFF;
+    color: $default-white-text-color;
     margin: 0;
 }
 
 .article__texts {
     // font-family: 'montserrat-medium';
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
+    font-size: $text-md-font-size;
+    line-height: $text-md-line-height;
+    color: $default-white-text-color;
     font-weight: 300;
     margin: 0;
     padding-block-end: 25px;
@@ -25,10 +25,10 @@
 }
 
 .button__readmore--link {
-    font-size: 14px;
+    font-size: $text-md-font-size;
     font-weight: 600;
-    line-height: 17px;
-    color: #FFFFFF;
+    line-height: $text-md-line-height;
+    color: $default-white-text-color;
 }
 
 @media (min-width: 1114px) {

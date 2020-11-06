@@ -1,4 +1,7 @@
 $main-horizontal-padding: 12px;
+$default-white-text-color: #ffffff;
+$text-md-font-size: 14px;
+$text-md-line-height: 17px;
 @mixin reset-list {
     list-style: none;
     padding: 0;

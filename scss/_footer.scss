@@ -1,8 +1,8 @@
 @import "./variables/variables";
 footer p {
     font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: $text-md-font-size;
+    line-height: $text-md-line-height;
     color: #A9A9A9;
     text-align: center;
     margin: 0;

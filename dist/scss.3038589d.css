@@ -78,9 +78,9 @@ main {
 body h1 {
   font-family: 'Crimson-extra-light';
   font-size: 14px;
-  line-height: 16px;
+  line-height: 17px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
   border: 1px solid #FFFFFF;
   box-sizing: border-box;
@@ -145,14 +145,14 @@ input[type="checkbox"]:checked ~ div > nav {
       font-size: 18px;
       line-height: 22px;
       /* identical to box height */
-      color: #FFFFFF; }
+      color: #ffffff; }
   .navigation__container .nav__list_item--active {
     font-family: 'Montserrat-bold'; }
 
 @media (min-width: 1114px) {
   body h1 {
     font-size: 14px;
-    line-height: 16px; }
+    line-height: 17px; }
   .navigation {
     z-index: 3;
     width: auto;
@@ -184,13 +184,13 @@ input[type="checkbox"]:checked ~ div > nav {
   font-size: 36px;
   font-weight: normal;
   line-height: 46px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0; }
 
 .article__texts {
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 300;
   margin: 0;
   padding-block-end: 25px;
@@ -204,7 +204,7 @@ input[type="checkbox"]:checked ~ div > nav {
   font-size: 14px;
   font-weight: 600;
   line-height: 17px;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 @media (min-width: 1114px) {
   .article__heading {
@@ -243,7 +243,7 @@ input[type="checkbox"]:checked ~ div > nav {
   line-height: 23px;
   max-width: 210px;
   margin: 0;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 .div-flex {
   display: flex;
@@ -261,7 +261,7 @@ input[type="checkbox"]:checked ~ div > nav {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 .designer__profile {
   width: 62px;
